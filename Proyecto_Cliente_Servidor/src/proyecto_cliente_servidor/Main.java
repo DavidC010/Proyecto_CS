@@ -19,6 +19,7 @@ public class Main {
         Menu_Principal_Vista m = new Menu_Principal_Vista();
         m.setVisible(true);
         m.setLocationRelativeTo(null);
+        System.out.println("Hola git hub");
         
     }
     

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[598, 615]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jScrollPane3" min="-2" pref="557" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane2" pref="555" max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane5" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Jlb_Titulo_Poliza" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+                      <Component id="Jlb_Seguro_A_Terceros" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                      <Component id="Jlb_Seguro_B_Terceros_Ext" min="-2" pref="211" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                      <Component id="Jlb_Seguro_C_Todo" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                      <Component id="Jlb_Seguro_D_Todo_Fran" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Jlb_Titulo_Poliza" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Jlb_Seguro_A_Terceros" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane3" min="-2" pref="135" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Jlb_Seguro_B_Terceros_Ext" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Jlb_Seguro_C_Todo" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Jlb_Seguro_D_Todo_Fran" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="76" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Jlb_Seguro_A_Terceros">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(A)  Seguro a Terceros"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Jlb_Seguro_B_Terceros_Ext">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(B)  Seguros a terceros ampliados "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Jlb_Seguro_C_Todo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(C) Seguros a Todo Riesgo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Jlb_Seguro_D_Todo_Fran">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(D) Todo Riesgo con Franquicia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Jlb_Titulo_Poliza">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Polizas "/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Jt_Cobertura_A">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value=" Las p&#xf3;lizas a terceros incluyen el seguro de responsabilidad civil que cubre las lesiones causadas a &#xa;terceros y los da&#xf1;os producidos a los ocupantes, adem&#xe1;s, en caso de accidente, si el conductor del&#xa; otro veh&#xed;culo sufre da&#xf1;os graves o fallece, la compa&#xf1;&#xed;a aseguradora indemnizar&#xe1; con la cuant&#xed;a que&#xa; estuviera estipulada por la ley. Los topes que se han establecido por la ley a la hora de pagar&#xa; indemnizaciones son los siguientes:  Da&#xf1;os Materiales o transporte de animales:&#xa; Se ha establecido un m&#xe1;ximo de 99.871 euros por siniestro Da&#xf1;os personales a terceros:&#xa; Se establecido un m&#xe1;ximo de 349.550 por persona."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Jt_Cobertura_B">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="La principal diferencia que tienen estos seguros con los seguros a terceros es que te ofrecen protecci&#xf3;n &#xa;contra robos, lunas e incendios y es bastante &#xfa;til en la mayor&#xed;a de los casos. "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Jt_Cobertura_C">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="En los seguros a todo riesgo est&#xe1;n cubiertos tanto los ocupantes del veh&#xed;culo como el conductor, &#xa;pasando por ambos veh&#xed;culos y los ocupantes de terceros. Es la opci&#xf3;n m&#xe1;s completa aunque tambi&#xe9;n&#xa; la m&#xe1;s costosa pero si tu veh&#xed;culo es nuevo o tiene poco tiempo es la opci&#xf3;n m&#xe1;s recomendable&#xa; debido a la gran cantidad de coberturas extra que nos ofrece."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Jt_Cobertura_D">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Los Seguros a Todo Riesgo con Franquicia se diferencian con los seguros a todo riesgo en que en caso&#xa; de sufrir da&#xf1;os el veh&#xed;culo la resoluci&#xf3;n del problema se har&#xed;a una parte por el asegurado y una parte&#xa; por una franquicia que estipula el precio m&#xe1;ximo de reparaci&#xf3;n. Este tipo de seguros suele ser m&#xe1;s &#xa;utilizado por gente que tenga coches de lujo o que nunca tienen accidentes en carretera ya que si sufres &#xa;siniestros leves con frecuencia, este seguro a la larga no te compensa."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
